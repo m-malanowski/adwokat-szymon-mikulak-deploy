@@ -8,7 +8,8 @@ import { Link } from "gatsby"
 const Form = () => {
     return (
       <div className={FormStyles.contactForm} >
-        <form method="POST" data-netlify="true">
+        <form name="contact"  method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+          <input type="hidden" name="form-contact" value="contact" />
           <div>
             <input
               type="text"
