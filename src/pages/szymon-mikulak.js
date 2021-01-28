@@ -28,7 +28,7 @@ const variants = {
 
 const TeamMember = () => (
    <>
-     <Helmet   bodyAttributes={{
+     <Helmet bodyAttributes={{
        id: 'team-member-page'
      }}   />
     <div className="team-member-page">

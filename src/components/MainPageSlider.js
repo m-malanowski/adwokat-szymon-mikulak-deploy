@@ -68,13 +68,13 @@ const MainPageSlider = (props) => {
     },
     initial: 0,
     beforeChange: (instance) => {
-      console.log("beforeChange");
+      // console.log("beforeChange");
       controls.start("hidden")
       controls2.start("hidden")
 
     },
     afterChange: (instance) => {
-      console.log("afterChange");
+      // console.log("afterChange");
       controls.start("visible")
       controls2.start("visible")
     },

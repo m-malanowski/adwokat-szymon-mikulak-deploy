@@ -40,7 +40,7 @@ const Blog = ({data}) => (
 
 export const query = graphql`
     {
-        allStrapiBlogs(sort: {fields: date, order: ASC}) {
+        allStrapiBlogs(sort: {fields: date, order: DESC}) {
             nodes {
                 slug
                 description

@@ -255,23 +255,27 @@ Navbar
   //mix-blend-mode: difference;
   //background: var(--clr-white);
   //background: transparent;
-  @include for-tablet-portrait-up {
+  @include for-desktop-up {
     left: 5%;
     right: 5%;
   }
-
-    @include for-tablet-landscape-up {
+  @include for-big-desktop-up {
+    left: 12.5%;
+    right:  12.5%;
+  }
+  @include for-tablet-landscape-up {
     //width: 95% !important;
     display: inline-block;
     top: 2.5rem;
   }
-  img{
-    //width: 50%;
-    width: 80px;
-    //height: auto;
-    //width: 70px;
-    //margin-top: -80px;
-  }
+
+  //img{
+  //  //width: 50%;
+  //  width: 80px;
+  //  //height: auto;
+  //  //width: 70px;
+  //  //margin-top: -80px;
+  //}
 }
 
 .nav-center {
@@ -285,13 +289,14 @@ Navbar
     //grid-template-columns: auto 1fr;
     //align-items: center;
   }
+
 }
 .nav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.nav-header img {
+.nav-header svg {
   margin-bottom: 0.375rem;
 }
 .toggle-btn {

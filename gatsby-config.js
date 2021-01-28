@@ -7,11 +7,11 @@
 module.exports = {
   siteMetadata: {
     title: "⚖️ Kancelaria Adwokacka Szymon Mikulak, Adwokat Gdynia",
-    description: "Zadzwoń ☎ 506 494 453. Adwokat Gdynia - sprawy cywilne, sprawy karne, sprawy rodzinne, rozwód, dobra osobiste, porady prawne, kontakty z dziećmi, alimenty, odszkodowanie, obrońca",
+    description: "Zadzwoń ☎ 606 502 202. Adwokat Gdynia - sprawy cywilne, sprawy karne, sprawy rodzinne, rozwód, dobra osobiste, porady prawne, kontakty z dziećmi, alimenty, odszkodowanie, obrońca",
     author: "LUMINA.STUDIO",
     twitterUsername: "@mat",
-    image: "/twitter-img.png",
-    // siteUrl: "https://adwokatmikulak.pl",
+    // image: "/twitter-img.png",
+    siteUrl: "https://adwokatmikulak.pl",
   },
   plugins: [
     `gatsby-transformer-sharp`,

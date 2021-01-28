@@ -8,10 +8,10 @@ import SEO from "../components/SEO"
 
 const ArticleSingle = ({ data }) => {
   return <>
-    <SEO title={data.blog.title + ' Porady Prawne | Blog'} description={data.blog.description}/>
     <Helmet bodyAttributes={{
       id: 'article-page'
     }}   />
+    <SEO title={data.blog.title + ' Porady Prawne | Blog'} description={data.blog.description}/>
     <div className="article-page">
       {/*<Subheader pagePreTitle={'O kancelarii'} pageTitle={'Stale powiększające się grono zaufanych Klientów.'} subImg={subHeaderPhoto}/>*/}
       <div className="page-content container-fluid">

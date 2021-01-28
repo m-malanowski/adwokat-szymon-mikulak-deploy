@@ -1,7 +1,7 @@
 import React from "react"
 import Subheader from "../components/Subheader"
 import subHeaderPhoto from "../assets/imgs/home-slider/adwokatGdyniaKontakt.jpg"
-import Form from "../components/Form"
+import Form from "../components/Form2"
 import Footer from "../components/Footer"
 import SEO from "../components/SEO"
 
