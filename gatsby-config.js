@@ -11,7 +11,7 @@ module.exports = {
     author: "LUMINA.STUDIO",
     twitterUsername: "@mat",
     image: "/twitter-img.png",
-    // siteUrl: "https://adwokatmikulak.pl",
+    siteUrl: "https://adwokatmikulak.pl",
   },
   plugins: [
     `gatsby-transformer-sharp`,
