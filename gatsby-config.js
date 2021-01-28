@@ -10,11 +10,7 @@ module.exports = {
     description: "Zadzwoń ☎ 606 502 202. Adwokat Gdynia - sprawy cywilne, sprawy karne, sprawy rodzinne, rozwód, dobra osobiste, porady prawne, kontakty z dziećmi, alimenty, odszkodowanie, obrońca",
     author: "LUMINA.STUDIO",
     twitterUsername: "@mat",
-<<<<<<< HEAD
     // image: "/twitter-img.png",
-=======
-    image: "/twitter-img.png",
->>>>>>> 377767b0b119072c91c98c62764f0acf663d83e0
     siteUrl: "https://adwokatmikulak.pl",
   },
   plugins: [
