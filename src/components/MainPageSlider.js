@@ -19,7 +19,7 @@ const images = [
   {
     img: img2,
     // title: "Najlepiej o naszej dobrej pracy świadczy stale powiększające się grono Klientów.",
-    title: "Oferuję szeroki wachlarz usług prawnych - specjalizuję się m.in. w prawie karnym oraz cywilnym",
+    title: "Oferuję szeroki wachlarz usług prawnych",
     beforeTitle: "Zakres Usług",
     buttonText: "Zakres usług",
     url: "/zakres-uslug",
@@ -150,7 +150,7 @@ const MainPageSlider = (props) => {
 
                   <motion.p
                     animate={controls}
-                    exit={{ y: 20, opacity: 0 }}
+                    // exit={{ y: 20, opacity: 0 }}
                     variants={{
                       visible: {
                         opacity: 1, y: 0,
@@ -158,12 +158,13 @@ const MainPageSlider = (props) => {
                       },
                       hidden: { opacity: 0, y: -60, }
                     }}
-                    className="beforeH1">{item.beforeTitle}
+                    className="beforeH1">
+                    {item.beforeTitle}
                   </motion.p>
 
                   <motion.h1
                     animate={controls}
-                    exit={{ y: 20, opacity: 0 }}
+                    // exit={{ y: 20, opacity: 0 }}
                     variants={{
                       visible: {
                         opacity: 1, y: 0,
@@ -177,7 +178,7 @@ const MainPageSlider = (props) => {
 
                   <motion.div
                     animate={controls}
-                    exit={{ y: 20, opacity: 0 }}
+                    // exit={{ y: 20, opacity: 0 }}
                     variants={{
                       visible: {
                         opacity: 1, y: 0,

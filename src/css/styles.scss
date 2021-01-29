@@ -146,7 +146,10 @@ h1 {
     //all: inherit;
     //line-height: inherit !important;
     line-height: 1;
-
+    //margin-top: -10px !important;
+    //span{
+      //line-height: 0;
+    //}
     //word-spacing: 15px;
   }
   div{
@@ -237,6 +240,9 @@ h1.page-title em, h2.page-title em {
   width: 25%;
 }
 .subheader, .home-slider {
+  h1{
+    line-height: 0;
+  }
   p{
     color: var(--clr-white);
     font-weight: bold;

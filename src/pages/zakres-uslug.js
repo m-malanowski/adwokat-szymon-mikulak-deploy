@@ -31,7 +31,7 @@ const TeamPage = () => {
       <SEO title="⚖️ &nbsp; Ofeta Usług Prawnych | Kancelaria Adwokacka Szymon Mikulak. " description="Kancelaria Adwokacka z Siedzibą w Gdyni. Świadczy Usługi Prawne Zarówno na Rzecz Podmiotów Gospodarczych, Jak i Klientów Indywidualnych. Pomoc i Porady Prawne Gdynia."/>
 
       <div className="services-page">
-        <Subheader pagePreTitle={'Zakres usług'} pageTitle={'Zakres usług świadczonych przez Kancelarię obejmuje obszary:'} subImg={subHeaderPhoto} alt="Adwokat Ggdynia zakres usług"/>
+        <Subheader pagePreTitle={'Zakres usług'} pageTitle={'Zakres usług świadczonych przez Kancelarię obejmuje:'} subImg={subHeaderPhoto} alt="Adwokat Ggdynia zakres usług"/>
 
         <div className="page-content container-fluid">
           <div className="page-description-wrapper">
