@@ -1,12 +1,11 @@
 import React from "react"
-import Layout from "../components/Layout"
 import { Link } from "gatsby"
 import SEO from "../components/SEO"
-import Links from "../constants/links"
 
 const Error = () => {
   return (
     <>
+      <SEO title="⚖️ &nbsp; 404" description="Zadzwoń ☎ 606 502 202 i Umów Się na Spotkanie. Adwokat Gdynia - Sprawy Cywilne, Sprawy Karne, Porady Prawne Gdynia"/>
       <div className="error-page">
         <div>
           <h2>404</h2>

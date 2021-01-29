@@ -53,6 +53,7 @@ const Subheader = ({pageTitle, pagePreTitle, subImg, alt}) => {
           {/*  {pageTitle}*/}
           {/*</motion.h1>*/}
 
+          <h1>
             <SplitText
               initial={{ y: '100%' }}
               animate="visible"
@@ -61,7 +62,7 @@ const Subheader = ({pageTitle, pagePreTitle, subImg, alt}) => {
                 visible: i => ({
                   y: 0,
                   transition: {
-                    delay: i * 0.1,
+                    delay: i * 0.05,
                     duration: 1,
                     ease: [0.6, 0.01, -0.05, 0.9]
                   }
@@ -77,10 +78,11 @@ const Subheader = ({pageTitle, pagePreTitle, subImg, alt}) => {
 
               }}
             >
-              {pageTitle}
+            {pageTitle}
             </SplitText>
+          </h1>
 
-        </div>
+      </div>
       </div>
     </motion.header>
   )

@@ -1,5 +1,4 @@
 import React from "react"
-import Layout from "../components/Layout"
 import img1 from "../assets/imgs/portrait/adwokat-gdynia-mikulak.jpg"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"

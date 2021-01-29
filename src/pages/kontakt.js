@@ -4,6 +4,7 @@ import subHeaderPhoto from "../assets/imgs/home-slider/adwokatGdyniaKontakt.jpg"
 import Form from "../components/Form2"
 import Footer from "../components/Footer"
 import SEO from "../components/SEO"
+import TriggerText from "../components/TriggerText"
 
 const icons = {
   'mail': 'M928 128h-832c-52.8 0-96 43.2-96 96v640c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-640c0-52.8-43.2-96-96-96zM398.74 550.372l-270.74 210.892v-501.642l270.74 290.75zM176.38 256h671.24l-335.62 252-335.62-252zM409.288 561.698l102.712 110.302 102.71-110.302 210.554 270.302h-626.528l210.552-270.302zM625.26 550.372l270.74-290.75v501.642l-270.74-210.892z',
@@ -44,7 +45,9 @@ const kontakt = () => (
 
           <div className="page-content-description">
             <div className="description-first-element">
-              <h3>Adwokat <br/> Szymon <br/> Mikulak:</h3>
+              <TriggerText>
+                <h3>Adwokat <br/> Szymon <br/> Mikulak:</h3>
+              </TriggerText>
               <p className="">Osoby zainteresowane współpracą zachęcam <br/> do kontaktu w celu umówienia <br/> indywidualnego spotkania: </p>
               <br/>
               <p>
@@ -75,7 +78,9 @@ const kontakt = () => (
 
             </div>
             <div className="description-second-element">
-              <h5>Współpraca realizowana jest osobiście w siedzibie kancelarii, bądź przy pomocy środków komunikacji na odległość.</h5>
+              <TriggerText>
+                <h5>Współpraca realizowana jest osobiście w siedzibie kancelarii, bądź przy pomocy środków komunikacji na odległość.</h5>
+              </TriggerText>
               <br/>
               <p>Klienci kancelarii na samym początku uzyskują rzetelną informację, jakie są realne szanse osiągnięcia przez niego zamierzonego efektu oraz informację o kosztach związanych z prowadzeniem sprawy (opłaty sądowe, opłaty od pełnomocnictwa itp.). Zapraszam do kontaktu.</p>
               <Form/>

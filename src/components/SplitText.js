@@ -5,18 +5,18 @@ export function SplitText({ children,  ...rest  }) {
   let words = children.split(' ')
   return words.map((word, i) => {
     return (
-      <h1
+      <span
         key={children + i}
-        style={{ display: 'inline-block', overflow: 'hidden' }}
+        style={{ display: 'inline-block', overflow: 'hidden', padding: 0 }}
       >
-        <motion.div
+        <motion.span
           {...rest}
-          style={{ display: 'inline-block', willChange: 'transform' }}
+          style={{ display: 'inline-block', willChange: 'transform', padding: 0 }}
           custom={i}
         >
           {word + (i !== words.length - 1 ? '\u00A0' : '')}
-        </motion.div>
-      </h1>
+        </motion.span>
+      </span>
     )
   })
 }

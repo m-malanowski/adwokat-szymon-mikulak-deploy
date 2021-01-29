@@ -3,7 +3,6 @@ import { graphql } from "gatsby"
 import SEO from '../components/SEO'
 import MainPageSlider from "../components/MainPageSlider"
 import { motion } from "framer-motion"
-import logo from "../assets/imgs/logoMonogramito.svg"
 const icons = {
   'facebook': 'M608 192h160v-192h-160c-123.514 0-224 100.486-224 224v96h-128v192h128v512h192v-512h160l32-192h-192v-96c0-17.346 14.654-32 32-32z'
 };
@@ -35,16 +34,12 @@ const pathVariants = {
   hidden: {
     opacity: 0,
     pathLength: 0,
-    // pathOffset: 1,
-    // pathSpacing: 1,
     fill: "rgba(255, 255, 255, 0)",
     stroke: "rgba(255, 255, 255, 0)"
   },
   visible: {
     opacity: 1,
     pathLength: 1,
-    // pathOffset: 0,
-    // pathSpacing: 0,
     fill: "rgba(255, 255, 255, 0)",
     stroke: "rgba(255, 255, 255, 1)"
   }
@@ -57,16 +52,13 @@ const indexPage = () => (
       className="fake-loader-wrapper"
       initial={{opacity: 1}}
       animate={{
-        // display: 'none',
-        // opacity: 0,
         y: "-100%",
-        transition: {delay: 5, when: "afterChildren", duration: .5},
+        transition: {delay: 1.8, when: "afterChildren", duration: .5},
         transitionEnd: {
           display: "none",
         },
       }}
     >
-
       <motion.svg
         xmlns="http://www.w3.org/2000/svg"
         className="initialLogo"
@@ -78,11 +70,10 @@ const indexPage = () => (
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 4, ease: "easeInOut" },
+            default: { duration: 1.6, ease: "easeInOut" },
           }}
         />
       </motion.svg>
-
     </motion.div>
 
     <div className="index-page">

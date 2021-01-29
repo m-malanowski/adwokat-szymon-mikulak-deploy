@@ -1,11 +1,26 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
-import Layout from "../components/Layout"
 import ReactMarkdown from "react-markdown"
 import { Helmet } from "react-helmet"
 import Button from "../components/Button"
 import SEO from "../components/SEO"
+import { motion } from "framer-motion"
+const transition = {delay: .2, duration: 1, ease: [0.6, 0.01, -0.05, 0.9]};
 
+const variants = {
+  initial: {
+    y: 50,
+    opacity: 0
+  },
+  animate: {
+    y: 0,
+    opacity: 1
+  },
+  exit: {
+    y: 50,
+    opacity: 0
+  }
+}
 const ArticleSingle = ({ data }) => {
   return <>
     <Helmet bodyAttributes={{
@@ -13,13 +28,11 @@ const ArticleSingle = ({ data }) => {
     }}   />
     <SEO title={data.blog.title + ' Porady Prawne | Blog'} description={data.blog.description}/>
     <div className="article-page">
-      {/*<Subheader pagePreTitle={'O kancelarii'} pageTitle={'Stale powiększające się grono zaufanych Klientów.'} subImg={subHeaderPhoto}/>*/}
       <div className="page-content container-fluid">
-        <div className="article">
+        <motion.div variants={variants} initial="initial" animate="animate" exit="exit" transition={transition} className="article">
           <div className="article-header">
             <div>
-              <h1> { data.blog.title } </h1>
-              {/*<h5>Data publikacji: <br/> <span>21/02/2020</span></h5>*/}
+                <h1> { data.blog.title } </h1>
               <p>Data publikacji: { data.blog.date }</p>
             </div>
           </div>
@@ -33,7 +46,7 @@ const ArticleSingle = ({ data }) => {
             <Button url='/blog' buttonDesc='Powrót'/>
           </div>
 
-        </div>
+        </motion.div>
 
       </div>
     </div>

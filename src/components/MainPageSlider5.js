@@ -1,9 +1,8 @@
 import React from "react"
 import { useKeenSlider } from "keen-slider/react"
-import img1 from "../assets/imgs/home-slider/newHomeSlider2.png"
-import img2 from "../assets/imgs/home-slider/newHomeSlider3.png"
-import img3 from "../assets/imgs/home-slider/newHomeSlider6.png"
-import { SplitText } from "./SplitText"
+import img1 from "../assets/imgs/home-slider/adwokatGdynia.jpg"
+import img2 from "../assets/imgs/home-slider/adwokatGdyniaZakresUsług.jpg"
+import img3 from "../assets/imgs/home-slider/adwokatGdyniaKontakt.jpg"
 import Button from "./Button"
 import { motion } from "framer-motion"
 

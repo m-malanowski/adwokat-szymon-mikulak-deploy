@@ -5,6 +5,7 @@ import Footer from "../components/Footer"
 import { motion, AnimatePresence } from "framer-motion"
 import { useState } from "react"
 import SEO from "../components/SEO"
+import TriggerText from "../components/TriggerText"
 
 const transition = { delay: .1, duration: .4, ease: [0.6, 0.01, -0.05, 0.9] }
 const variantsPlus  = {
@@ -55,7 +56,9 @@ const TeamPage = () => {
             <div className="service-container">
               <div className="single-service">
                 <div className="service-heading">
-                  <h3> Prawo  Karne</h3>
+                  <TriggerText>
+                    <h3> Prawo  Karne</h3>
+                  </TriggerText>
                   <motion.span
                     animate={isOpen1 ? "open" : "closed"}
                     variants={variantsPlus}
@@ -100,7 +103,9 @@ const TeamPage = () => {
 
               <div className="single-service">
                 <div className="service-heading">
-                  <h3> Prawo cywilne</h3>
+                  <TriggerText>
+                    <h3> Prawo cywilne</h3>
+                  </TriggerText>
                   <motion.span
                     animate={isOpen2 ? "open" : "closed"}
                     variants={variantsPlus}
@@ -145,7 +150,9 @@ const TeamPage = () => {
 
               <div className="single-service">
                 <div className="service-heading">
-                  <h3> Prawo gospodarcze</h3>
+                  <TriggerText>
+                    <h3> Prawo gospodarcze</h3>
+                  </TriggerText>
                   <motion.span
                     animate={isOpen3 ? "open" : "closed"}
                     variants={variantsPlus}
@@ -189,7 +196,9 @@ const TeamPage = () => {
 
               <div className="single-service">
                 <div className="service-heading">
-                  <h3> Prawo administracyjne</h3>
+                  <TriggerText>
+                    <h3> Prawo administracyjne</h3>
+                  </TriggerText>
                   <motion.span
                     animate={isOpen4 ? "open" : "closed"}
                     variants={variantsPlus}
@@ -233,7 +242,9 @@ const TeamPage = () => {
 
               <div className="single-service">
                 <div className="service-heading">
-                  <h3> RODO i ochrona danych osobowych</h3>
+                  <TriggerText>
+                    <h3> RODO i ochrona danych osobowych</h3>
+                  </TriggerText>
                   <motion.span
                     animate={isOpen5 ? "open" : "closed"}
                     variants={variantsPlus}

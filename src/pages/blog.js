@@ -4,8 +4,8 @@ import Subheader from "../components/Subheader"
 import Footer from "../components/Footer"
 import subHeaderPhoto from "../assets/imgs/home-slider/adwokatGdyniaPoradyPrawne.jpg"
 import Button from "../components/Button"
-import { motion } from "framer-motion"
 import SEO from "../components/SEO"
+import TriggerText from "../components/TriggerText"
 // ...GatsbyImageSharpFluid
 
 const Blog = ({data}) => (
@@ -20,13 +20,17 @@ const Blog = ({data}) => (
           { data.allStrapiBlogs.nodes.map(node=>(
             <div key={node.id} className="article-description">
               <div>
-                <h4>{node.title}</h4>
+                <TriggerText>
+                  <h4>{node.title}</h4>
+                </TriggerText>
                 <p>{node.description}</p>
                 <br/>
                 <Button url={node.slug} buttonDesc="czytaj więcej"/>
               </div>
               <div className="article-date">
-                <span>{node.dateDay}</span>
+                <TriggerText>
+                  <span>{node.dateDay}</span>
+                </TriggerText>
                 <p>{node.date}</p>
               </div>
             </div>

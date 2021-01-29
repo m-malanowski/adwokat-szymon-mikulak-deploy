@@ -43,5 +43,18 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Kancelaria Adwokacka Szymon Mikulak`,
+        short_name: `Szymon Mikulak`,
+        start_url: `/`,
+        background_color: `#ffffff`,
+        theme_color: `#1f3d38`,
+        display: `standalone`,
+        icon: `src/assets/imgs/icon.png`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }

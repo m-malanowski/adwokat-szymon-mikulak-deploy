@@ -130,6 +130,8 @@ const MainPageSlider = (props) => {
       WebkitTransform: `translate3d(${x}px, 0px, 0px) scale(${scale})`,
     }
   }
+  {images.map((item, idx) => (  <Button url={item.url} buttonDesc={item.buttonText} /> ))}
+
   return (
     <>
       <div ref={sliderRef} className="zoom-out draggable">

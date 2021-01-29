@@ -1,10 +1,7 @@
 import React from "react"
 import Navbar from "./Navbar"
 import Sidebar from "./Sidebar"
-import Footer from "./Footer"
 import {motion, AnimatePresence} from "framer-motion";
-const duration = 1
-const durationExit = .4
 const transition = {delay: .6, duration: .6, ease: [0.6, 0.01, -0.05, 0.9]};
 
 const variants = {
@@ -15,7 +12,7 @@ const variants = {
     opacity: 1,
     transition: {
       duration: .6,
-      delay: .6,
+      delay: .1,
       when: 'beforeChildren',
     },
   },

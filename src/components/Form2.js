@@ -1,14 +1,10 @@
-
 import React from "react"
 import FormStyles from "./Form.module.scss"
-import Button from "./Button"
-import { Link } from "gatsby"
-
 
 const Form = () => {
     return (
       <div className={FormStyles.contactForm} >
-        <form name="contact"  action="/thanks"  method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <form name="contact"  action="/thanks"  method="post"  data-netlify="true" data-netlify-honeypot="bot-field">
          <input type="hidden" name="bot-field" />
          <input type="hidden" name="form-contact" value="contact" />
           <div>
@@ -59,9 +55,6 @@ const Form = () => {
           <p className={FormStyles.agreements}>
             Używając tego formularza zgadzam się na przetwarzanie przekazywanych danych w celu przygotowania i prezentacji oferty oraz akceptuję politykę prywatności.
           </p>
-
-          {/*<input type="submit" value="elo"/>*/}
-          {/*<Button type="submit" buttonDesc="wyślij"/>*/}
 
           <button type="submit" className="learn-more">
             <span className="circle" aria-hidden="true">
