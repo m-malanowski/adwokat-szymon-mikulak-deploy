@@ -588,7 +588,7 @@ Policy About
 
 
    @include for-tablet-portrait-up {
-     width: 100%;
+     width: 100% !important;
      height: auto;
    }
    @include for-tablet-landscape-up {
@@ -1374,7 +1374,7 @@ Team Slider Home And Team
     //padding-left: 1em;
     //text-indent: -1em;
   }
-  button{
+  .button{
     margin-top: 2.5rem;
   }
 }
@@ -1704,7 +1704,7 @@ Button
 }
 
 .article-description, .page-content-description, .contact-page, .services-page, .article-page{
-  .button{
+  .button,button{
     &.learn-more {
       .circle {
         background: var(--clr-primary-10);
@@ -1739,7 +1739,7 @@ Button
   }
 }
 
-.button {
+.button, button {
   position: relative;
   display: inline-block;
   cursor: pointer;

@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59d91af2-1f7b-475b-9bfd-a808550b6fc0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/MainPageSlider6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TriggerImg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TriggerText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPageSlider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPageSlider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MainPageSlider5.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MainPageSlider5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SplitText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SplitText.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Subheader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Subheader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/adwokat-gdynia.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/adwokat-gdynia.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/blog.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/kontakt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/kontakt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/szymon-mikulak.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/szymon-mikulak.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/thanks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/thanks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/zakres-uslug.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/zakres-uslug.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blog-template.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blog-template.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611921549836</updated>
       <workItem from="1611921551688" duration="6370000" />
-      <workItem from="1611928652310" duration="8503000" />
+      <workItem from="1611928652310" duration="10310000" />
     </task>
     <servers />
   </component>
