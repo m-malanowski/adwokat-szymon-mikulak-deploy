@@ -58,7 +58,7 @@ const Form = () => {
 
           <button type="submit" className="learn-more">
             <span className="circle" aria-hidden="true">
-              <span className="icon arrow"/>
+              <span className="icon button-arrow"/>
             </span>
             <span  className="button-text">Wyślij</span>
           </button>

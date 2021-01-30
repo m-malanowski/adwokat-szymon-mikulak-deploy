@@ -6,7 +6,7 @@ const Button = ({url, buttonDesc}) => {
     <>
       <Link to={url} className="button learn-more">
         <span className="circle" aria-hidden="true">
-          <span className="icon arrow"/>
+          <span className="icon button-arrow"/>
         </span>
         <span className="button-text">{buttonDesc}</span>
       </Link>

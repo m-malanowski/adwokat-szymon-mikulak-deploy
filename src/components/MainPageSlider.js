@@ -28,7 +28,7 @@ const images = [
   },
   {
     img: img3,
-    title: "Szukasz rozwiązania swojego problemy? Skontaktuj się ze mną.",
+    title: "Szukasz rozwiązania swojego problemu? Skontaktuj się ze mną.",
     beforeTitle: "Pomogę rozwiązać Twój problem",
     buttonText: "Umów spotkanie",
     url: "/kontakt",

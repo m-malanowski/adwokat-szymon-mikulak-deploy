@@ -141,23 +141,13 @@ h6{
 }
 
 h1 {
-  font-size: calc(30px + (60 - 30) * ((100vw - 320px) / (1900 - 320)));
+  font-size: calc(25px + (60 - 25) * ((100vw - 320px) / (1900 - 320)));
   span {
-    //all: inherit;
-    //line-height: inherit !important;
     line-height: 1;
-    //margin-top: -10px !important;
-    //span{
-      //line-height: 0;
-    //}
-    //word-spacing: 15px;
-  }
-  div{
-    line-height: inherit !important;
   }
 }
 h2 {
-  font-size: calc(30px + (60 - 30) * ((100vw - 320px) / (1900 - 320)));
+  font-size: calc(25px + (60 - 25) * ((100vw - 320px) / (1900 - 320)));
 }
 h3 {
   font-size: calc(20px + (50 - 20) * ((100vw - 320px) / (1900 - 320)));
@@ -615,6 +605,7 @@ Policy About
 
 .page-content{
   //transform: translateY(1px);
+
   position: relative;
   background-color: var(--clr-secondary);
   padding: 7.5rem 15rem 2.5rem 7.5rem;
@@ -1469,6 +1460,16 @@ Team Slider Home And Team
   left: 50%;
   bottom: 5%;
   transform: translate(-50%, -5%);
+  @include for-tablet-landscape-up{
+    left: 40%;
+    bottom: 5%;
+    transform: translate(-30%, -5%);
+  }
+  @include for-tablet-portrait-up{
+    left: 25%;
+    bottom: 5%;
+    transform: translate(-25%, -5%);
+  }
 }
 .lines {
   display: flex;
@@ -1698,6 +1699,7 @@ Fake Loader && Page Transition
     //width: 120px;
     width: 80%;
   }
+
 }
 
 /*
@@ -1716,7 +1718,7 @@ Button
         background: var(--clr-primary-10);
         .icon {
           background: var(--clr-grey-1);
-          &.arrow {
+          &.button-arrow {
             &::before {
               border-top: 0.125rem solid #fff;
               border-right: 0.125rem solid #fff;
@@ -1731,7 +1733,7 @@ Button
         .circle {
           width: 100%;
           .icon {
-            &.arrow {
+            &.button-arrow {
               background: #fff;
               transform: translate(1rem, 0);
             }
@@ -1776,7 +1778,7 @@ Button
         bottom: 0;
         margin: auto;
         background: #fff;
-        &.arrow {
+        &.button-arrow {
           @include transition(all, 0.45s, cubic-bezier(0.65,0,.076,1));
           left: 0.625rem;
           width: 1.125rem;
@@ -1821,7 +1823,7 @@ Button
     .circle {
       width: 100%;
       .icon {
-        &.arrow {
+        &.button-arrow {
           background: #000;
           transform: translate(1rem, 0);
         }
@@ -1978,20 +1980,15 @@ Link Hover
 }
 
 .initialLogo{
-  //fill: #fff;
-  width: 600px;
-  height: 600px;
-  //stroke-width: 12;
-  //stroke-linejoin: round;
-  //stroke-linecap: round;
-
-  //width: 15%;
+  width: 300px;
+  height: 300px;
   overflow: visible;
   stroke: #fff;
-  stroke-width: 2;
+  stroke-width: 1;
   stroke-linejoin: round;
   stroke-linecap: round;
   stroke-dasharray: 100;
+
 }
 @keyframes motionblur {
   0% {
