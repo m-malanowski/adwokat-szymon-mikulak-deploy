@@ -19,6 +19,23 @@ const Subheader = ({pageTitle, pagePreTitle, subImg, alt}) => {
 
       <motion.img initial={{ transform: 'scale(1.2) ' }} exit={{  transform: 'scale(1.2)', transition: { delay: .2, ...transition } }} animate={{  transform: 'scale(1.0)' , transition: { delay: 2, ...transition } }}
         src={subImg} alt={alt} />
+
+      <div className="arrow-down">
+        <motion.span
+          initial={{opacity: 0, y: 12}}
+          animate={{
+            opacity: 1,
+            y: 0,
+            transition: {delay: 2, ...transition},
+          }}
+          exit={{
+            y: 12,
+            opacity:0,
+            transition: {  ...transition},
+          }}
+        />
+      </div>
+
       <div className="page-title container-fluid">
         <div className="col-md-8 col-12">
           <motion.p
@@ -37,22 +54,6 @@ const Subheader = ({pageTitle, pagePreTitle, subImg, alt}) => {
           >
             {pagePreTitle}
           </motion.p>
-          {/*<motion.h1*/}
-          {/*  className="page-title"*/}
-          {/*  initial={{opacity: 0, y: 40}}*/}
-          {/*  animate={{*/}
-          {/*    opacity: 1,*/}
-          {/*    y: 0,*/}
-          {/*    transition: {delay: .6, ...transition},*/}
-          {/*  }}*/}
-          {/*  exit={{*/}
-          {/*    y: 40,*/}
-          {/*    opacity:0,*/}
-          {/*    transition: {  ...transition},*/}
-          {/*  }}>*/}
-          {/*  {pageTitle}*/}
-          {/*</motion.h1>*/}
-
           <h1>
             <SplitText
               initial={{ y: '100%' }}
@@ -75,7 +76,6 @@ const Subheader = ({pageTitle, pagePreTitle, subImg, alt}) => {
                     ease: [0.6, 0.01, -0.05, 0.9],
                   }
                 }),
-
               }}
             >
             {pageTitle}

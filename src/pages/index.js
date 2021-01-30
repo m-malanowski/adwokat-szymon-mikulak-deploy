@@ -51,7 +51,7 @@ const indexPage = () => (
       initial={{opacity: 1}}
       animate={{
         y: "-100%",
-        transition: {delay: 1.8, when: "afterChildren", duration: .5},
+        transition: {delay: 2, when: "afterChildren", duration: .5},
         transitionEnd: {
           display: "none",
         },
@@ -68,7 +68,7 @@ const indexPage = () => (
           initial="hidden"
           animate="visible"
           transition={{
-            default: { duration: 1.6, ease: "easeInOut" },
+            default: { duration: 1.9, ease: "easeInOut" },
           }}
         />
       </motion.svg>

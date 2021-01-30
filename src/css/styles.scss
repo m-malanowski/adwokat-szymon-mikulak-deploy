@@ -1641,11 +1641,60 @@ Team Slider Home And Team
 
 /*
 ===============
-Arrow Button
+Arrow Down
 ===============
 */
 
+.arrow-down {
+  position: absolute;
+  width: 25px;
+  bottom: 10%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  z-index: 10000;
+  margin: 0 auto;
+  -webkit-animation: arrow-down 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s infinite alternate;
+  animation: arrow-down 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s infinite alternate;
+}
 
+.arrow-down span {
+  position: relative;
+  display: block;
+  left: 50%;
+}
+
+.arrow-down span:before {
+  content: '';
+  width: 25px;
+  height: 25px;
+  border: 0;
+  border-top: solid 1px #fff;
+  border-right: solid 1px #fff;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+@keyframes arrow-down {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+  }
+
+  100% {
+    opacity: 0.5;
+    -webkit-transform: translate3d(-50%, -8px, 0);
+    transform: translate3d(-50%, -8px, 0);
+  }
+}
 /*
 ===============
 Fake Loader && Page Transition
@@ -1933,6 +1982,7 @@ Link Hover
 
 
 .x {
+  cursor: pointer;
   z-index: 1000;
   display: block;
   position: fixed;

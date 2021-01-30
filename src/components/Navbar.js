@@ -11,7 +11,7 @@ const variants = {
     y:0,
     opacity: 1,
     transition:{
-      delay: 1.9,
+      delay: 2.1,
       duration: 1,
       ease: [0.6, 0.01, -0.05, 0.9]
     }
@@ -39,13 +39,13 @@ const Navbar = ({toggleSideBar}) => {
             {/*<img src={logo} alt="Adwokat Szymon Mikulak" />*/}
           </motion.a>
 
-          <motion.button
+          <motion.span
             initial="initial"
             animate="animate"
             variants={variants}
             type="button" className="toggle-btn" onClick={toggleSideBar}>
             <FaAlignRight/>
-          </motion.button>
+          </motion.span>
 
         </div>
       </div>

@@ -5,9 +5,7 @@ const Sidebar = ({toggleSideBar, isOpen}) => {
   return (
     <>
       <div className={`sidebar ${isOpen? "show-sidebar" : ""}`}>
-        <button>
-          <span className="x" onClick={toggleSideBar}/>
-        </button>
+        <span className="x" onClick={toggleSideBar}/>
         <div className="side-container"  onClick={toggleSideBar}>
           <Links styleClass="sidebar-links"/>
         </div>

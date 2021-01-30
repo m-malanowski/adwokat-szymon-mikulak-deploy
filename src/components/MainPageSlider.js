@@ -143,14 +143,14 @@ const MainPageSlider = (props) => {
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0, transition: {delay: 1.8,  duration: 1., ease: [0.6, 0.01, -0.05, 0.9] } }}
+              animate={{ opacity: 1, y: 0, transition: {delay: 2,  duration: 1., ease: [0.6, 0.01, -0.05, 0.9] } }}
               className="index-slider">
               <div className="container-fluid ">
                 <div className="col-lg-8 col-12">
 
                   <motion.p
                     animate={controls}
-                    // exit={{ y: 20, opacity: 0 }}
+                    exit={{ y: 20, opacity: 0 }}
                     variants={{
                       visible: {
                         opacity: 1, y: 0,
@@ -164,7 +164,7 @@ const MainPageSlider = (props) => {
 
                   <motion.h1
                     animate={controls}
-                    // exit={{ y: 20, opacity: 0 }}
+                    exit={{ y: 20, opacity: 0 }}
                     variants={{
                       visible: {
                         opacity: 1, y: 0,
@@ -178,7 +178,7 @@ const MainPageSlider = (props) => {
 
                   <motion.div
                     animate={controls}
-                    // exit={{ y: 20, opacity: 0 }}
+                    exit={{ y: 20, opacity: 0 }}
                     variants={{
                       visible: {
                         opacity: 1, y: 0,
@@ -211,7 +211,7 @@ const MainPageSlider = (props) => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           exit={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0, transition: {delay: 2,  duration: 1., ease: [0.6, 0.01, -0.05, 0.9] } }}
+          animate={{ opacity: 1, y: 0, transition: {delay: 2.2,  duration: 1., ease: [0.6, 0.01, -0.05, 0.9] } }}
           className="linesWrapper">
           <ul className="lines">
             {[...Array(slider.details().size).keys()].map((idx) => {
@@ -224,6 +224,7 @@ const MainPageSlider = (props) => {
                   }}
                 >
                   <a
+                    aria-label="Adwokat Gdynia"
                     className="lines-item"
                     href="#">
                     <div className="lines-dash"/>

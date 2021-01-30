@@ -45,7 +45,7 @@ const TeamMember = () => (
           <div className="bio-header">
             <div>
               <h3>
-                Stanisław Mikulak
+                Szymon Mikulak
               </h3>
               <p>
                 Adwokat
@@ -53,15 +53,15 @@ const TeamMember = () => (
             </div>
           </div>
           <br/>
-          <h5 className="mt-5">Biografia</h5>
+          <h5 className="mt-5 mb-5">Życiorys</h5>
           <p className="team-member-bio">Craft beer YOLO umami i food truck. 3 wolf moon listicl food truck. 3 wolf moon listicle church-key enamel pin <br/><br/>  banjo williamsburg 90's sriracha prism pitchfork. Shabby chic before they sold out vexillologist live-edge farm-to-table deep v hexagon. You probably haven't heard of them flannel hoodie hammock.
           </p>
           <br/><br/>
-          <h5>Dopisać coś </h5>
+          <h5 className="mt-5 mb-5">Dopisać coś </h5>
           <p className="team-member-bio">Craft beer YOLO umame church-key enamel pin banjo williamsburg 90's sriracha prism pitchfork. Shabby chic before they sold out vexillologist live-edge farm-to-table deep v hexagon. You probably haven't heard of them flannel hoodie hammock.
           </p>
           <br/><br/>
-          <h5>Informacje</h5>
+          <h5 className="mt-5 mb-5">Informacje</h5>
           <p className="team-member-bio">3 wolf moon listicle church-key enamlliamsburg 90's sriracha prism pitchfork. Shabby chic before they sold out vexillologist live-edge farm-to-table deep v hexagon. You probably haven't heard of them flannel hoodie hammock.
           </p>
 
