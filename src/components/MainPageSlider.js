@@ -79,6 +79,7 @@ const MainPageSlider = (props) => {
     initial: 0,
     slideChanged(instance) {
       setCurrentSlide(instance.details().relativeSlide)
+      console.log("slideChanged");
     },
     move(instance) {
       setDetails(instance.details())
@@ -142,6 +143,7 @@ const MainPageSlider = (props) => {
             <img src={item.img} alt={item.title} />
 
             <motion.div
+              exit={{ y: 20, opacity: 0 }}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0, transition: {delay: 2,  duration: 1., ease: [0.6, 0.01, -0.05, 0.9] } }}
               className="index-slider">
@@ -150,7 +152,7 @@ const MainPageSlider = (props) => {
 
                   <motion.p
                     animate={controls}
-                    exit={{ y: 20, opacity: 0 }}
+                    // exit={{ y: 20, opacity: 0 }}
                     variants={{
                       visible: {
                         opacity: 1, y: 0,
@@ -164,7 +166,7 @@ const MainPageSlider = (props) => {
 
                   <motion.h1
                     animate={controls}
-                    exit={{ y: 20, opacity: 0 }}
+                    // exit={{ y: 20, opacity: 0 }}
                     variants={{
                       visible: {
                         opacity: 1, y: 0,
@@ -178,7 +180,7 @@ const MainPageSlider = (props) => {
 
                   <motion.div
                     animate={controls}
-                    exit={{ y: 20, opacity: 0 }}
+                    // exit={{ y: 20, opacity: 0 }}
                     variants={{
                       visible: {
                         opacity: 1, y: 0,
