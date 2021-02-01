@@ -15,7 +15,7 @@ return (
  <>
    <SEO title="⚖️ &nbsp; O Kancelarii | Kancelaria Adwokacka Szymon Mikulak. Porady Prawne Gdynia. Adwokat Gdynia" description="Zadzwoń ☎ 606 502 202. Adwokat Gdynia - Sprawy Cywilne, Sprawy Karne, Porady Prawne Gdynia"/>
    <div className="about-page">
-      <Subheader pagePreTitle={'O kancelarii'} pageTitle={'Kancelaria Adwokacka Szymon Mikulak. Adwokat Gdynia.'} subImg={subHeaderPhoto}/>
+      <Subheader pagePreTitle={'O kancelarii'} pageTitle={'Adwokat Gdynia Szymon Mikulak. '} subImg={subHeaderPhoto}/>
       <div
         className="page-content container-fluid">
         <div className="page-description-wrapper">
