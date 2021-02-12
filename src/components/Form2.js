@@ -4,13 +4,13 @@ import FormStyles from "./Form.module.scss"
 const Form = () => {
     return (
       <div className={FormStyles.contactForm} >
-        <form name="contact"   action="https://formspree.io/f/xnqorada"  method="post"  data-netlify="true" data-netlify-honeypot="bot-field">
+        <form name="contact" action="https://formspree.io/f/xnqorada"  method="post"  data-netlify="true" data-netlify-honeypot="bot-field">
          <input type="hidden" name="bot-field" />
          <input type="hidden" name="form-contact" value="contact" />
           <div>
             <input
               type="text"
-              name="name"
+              name="imię"
               autoComplete="off"
               required/>
             <label htmlFor="name">
@@ -20,7 +20,7 @@ const Form = () => {
 
           <div>
             <input
-              type="text"
+              type="email"
               name="email"
               autoComplete="off"
               required />
@@ -32,7 +32,7 @@ const Form = () => {
           <div>
             <input
               type="text"
-              name="phone"
+              name="telefon"
               autoComplete="off"
               required />
             <label htmlFor="phone">
@@ -43,7 +43,7 @@ const Form = () => {
           <div className={FormStyles.messageDiv}>
                         <textarea
                           type="text"
-                          name="message"
+                          name="wiadomość"
                           autoComplete="off"
                           required
                           rows="10" />
