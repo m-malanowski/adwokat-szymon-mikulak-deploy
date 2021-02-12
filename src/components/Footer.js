@@ -13,7 +13,6 @@ const Footer = () => {
         <div className="credits">
           <ul>
             <ul className="footer-links">
-              {/*<li className="mr-3">Stworzono przez: Lumina.Studio</li>*/}
               <li className="mr-3"><Link to="/polityka-prywatnosci">Polityka prywatności</Link></li>
               <li className="mr-3"><a rel="noreferrer noopener" href="https://lumina.studio">By: lumina.studio</a></li>
             </ul>
@@ -29,7 +28,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="https://twitter.com/AdwokatSzymon">
                   <svg width="15" height="15" viewBox="0 0 1024 1024">
                     <path d={icons.twitter}/>
                   </svg>
