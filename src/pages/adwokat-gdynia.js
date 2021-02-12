@@ -74,7 +74,7 @@ return (
             <div className="description-first-element">
               <div>
                 <TriggerText>
-                  <h3>Główne <br/> Specjalizacje:</h3>
+                  <h3>Korzyści <br/> ze współpracy:</h3>
                 </TriggerText>
                 <p className="after">
                   Kancelaria realizuje usługi prawne z zachowaniem najwyższej staranności i profesjonalizmu.</p>
