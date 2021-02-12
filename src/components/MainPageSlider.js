@@ -69,11 +69,11 @@ const MainPageSlider = (props) => {
   const controls = useAnimation()
   // const controls2 = useAnimation()
   const [currentSlide, setCurrentSlide] = React.useState(0)
-  // const [pause, setPause] = React.useState(false)
-  // const timer = React.useRef()
+  const [pause, setPause] = React.useState(false)
+  const timer = React.useRef()
 
   const [sliderRef, slider] = useKeenSlider({
-    loop: false,
+    loop: true,
     duration: 2500,
     slides: images.length,
     initial: 0,
@@ -106,24 +106,24 @@ const MainPageSlider = (props) => {
     // },
 
   })
-  //
-  // React.useEffect(() => {
-  //   timer.current = setInterval(() => {
-  //     if (!pause && slider) {
-  //       slider.next()
-  //     }
-  //   }, 8000)
-  //   return () => {
-  //     clearInterval(timer.current)
-  //   }
-  // }, [pause, slider])
+
+  React.useEffect(() => {
+    timer.current = setInterval(() => {
+      if (!pause && slider) {
+        slider.next()
+      }
+    }, 8000)
+    return () => {
+      clearInterval(timer.current)
+    }
+  }, [pause, slider])
 
 
   function positionStyle(idx) {
     if (!details) return {}
     const position = details.positions[idx]
     const x = details.widthOrHeight * position.distance
-    const scale_size = 0.7
+    const scale_size = .9
     const scale = 1 - (scale_size - scale_size * position.portion)
     return {
       transform: `translate3d(${x}px, 0px, 0px) scale(${scale})`,

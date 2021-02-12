@@ -28,7 +28,7 @@ return (
             <div className="description-second-element ">
               <div className="short-bio-sub">
                 <TriggerText>
-                  <h5>Lorem ipsum dolor sit amet, <em> consectetur adipisicing  asperiores dolor excepturi </em>fugiat</h5>
+                  <h5>Kancelaria Adwokacka <em>Szymon Mikulak</em> - sprawdzony prawnik z Gdyni </h5>
                 </TriggerText>
                 <br/>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, commodi labore nihil odit officiis quas qui vel! Consectetur, doloribus, maiores minus nihil odit pariatur quas qui quidem repellat tempora
@@ -45,7 +45,7 @@ return (
             <div className="description-first-element">
               <div>
                   <TriggerText>
-                    <h3>oferowane <br/> usługi:</h3>
+                    <h3>Oferowane <br/> usługi:</h3>
                   </TriggerText>
                 <p className="after">Oferuję szeroki zakres usług skierowanych <br/> zarówno do osób fizycznych jak i podmiotów gospodarczych.</p>
               </div>
@@ -76,19 +76,20 @@ return (
                 <TriggerText>
                   <h3>Główne <br/> Specjalizacje:</h3>
                 </TriggerText>
-                <p className="after">Lorem ipsum dolor sit amet, <br/> consectetur adipisicing elit.  sequi similique. </p>
+                <p className="after">
+                  Kancelaria realizuje usługi prawne z zachowaniem najwyższej staranności i profesjonalizmu.</p>
               </div>
             </div>
             <div className="description-second-element">
               <div className="about-sub">
                 <TriggerText>
-                  <h5>Cray yuccie +1 hella stumptown pork belly pinterest brunch squid hoodie umami sustainable marfa tbh</h5>
+                  <h5>Skuteczny adwokat potrafi wygrać każdą sprawę.</h5>
                 </TriggerText>
                 <br/>
-                <p>Four dollar toast tumeric kombucha celiac, prism street art master cleanse biodiesel YOLO food truck. Cray yuccie +1 hella stumptown pork belly pinterest brunch squid hoodie umami sustainable marfa tbh. Gentrify mumblecore locavore iceland keffiyeh. Deep v neutra banh mi gluten-free tumblr humblebrag swag palo santo jean shorts cold-pressed narwhal photo booth ugh.</p>
+                <p>Obszary praktyki są ściśle związane z problemami i zagadnieniami prawnymi w których Kancelaria ma największe doświadczenie. Cray yuccie +1 hella stumptown pork belly pinterest brunch squid hoodie umami sustainable marfa tbh. Gentrify mumblecore locavore iceland keffiyeh. Deep v neutra banh mi gluten-free tumblr humblebrag swag palo santo jean shorts cold-pressed narwhal photo booth ugh.</p>
                 <br/>
                 <TriggerText>
-                  <h5 className="mt-5">Fingerstache copper mug plaid gluten-free tumblr art party. Cornhole biodiesel celiac normcore flannel.</h5>
+                  <h5 className="mt-5">Dlaczego Kancelaria Adwokacka Szymon Mikulak to dobry wybór?</h5>
                 </TriggerText>
                 <br/>
                 <p>Four dollar toast tumeric kombucha celiac, prism street art master cleanse biodiesel YOLO food truck. Cray yuccie +1 hella stumptown pork belly pinterest brunch squid hoodie umami sustainable marfa tbh. Gentrify mumblecore locavore iceland keffiyeh. Deep v neutra banh mi gluten-free tumblr humblebrag swag palo santo jean shorts cold-pressed narwhal photo booth ugh.</p>

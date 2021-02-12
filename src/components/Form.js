@@ -30,7 +30,7 @@ export default class Form extends React.Component {
           <div>
             <input
               type="text"
-              name="name"
+              name="imię"
               value={this.state.name}
               onChange={this.handleInputChange}
               autoComplete="off"
@@ -56,7 +56,7 @@ export default class Form extends React.Component {
           <div>
             <input
               type="text"
-              name="phone"
+              name="telefon"
               value={this.state.phone}
               onChange={this.handleInputChange}
               autoComplete="off"
@@ -69,7 +69,7 @@ export default class Form extends React.Component {
           <div className={FormStyles.messageDiv}>
                         <textarea
                           type="text"
-                          name="message"
+                          name="wiadomość"
                           value={this.state.message}
                           onChange={this.handleInputChange}
                           autoComplete="off"

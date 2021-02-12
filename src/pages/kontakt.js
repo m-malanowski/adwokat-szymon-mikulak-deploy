@@ -19,29 +19,8 @@ const kontakt = () => (
      <div className="contact-page">
       <Subheader pagePreTitle={'Kontakt'} pageTitle={'Kancelaria Adwokacka Gdynia. Skontaktuj się z kancelarią.'} subImg={subHeaderPhoto}/>
 
-      {/*<div className="contact-img">*/}
-      {/*  <img src={overlay} alt="elo" />*/}
-      {/*</div>*/}
-
       <div className="page-content container-fluid">
         <div className="page-description-wrapper">
-
-          {/*<div className="page-content-description">*/}
-          {/*  <div className="description-first-element">*/}
-          {/*    <h3>Kontakt</h3>*/}
-          {/*  </div>*/}
-          {/*  <div className="description-second-element  ">*/}
-          {/*  </div>*/}
-          {/*</div>*/}
-
-          {/*<div className="page-content-description">*/}
-          {/*  <div className="description-first-element">*/}
-          {/*    <p> Lorem ilpa libero velit? A aperiam architecto debitis eos hic inventore laudantium nihil, possimus quibusdam saepe sequi soluta tempora, veniam. Veritatis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at aut consectetur debitis dicta dolore dolores enim et eveniet ex facere inventore minima molestiae, nesciunt pariatur quibusdam quos totam veniam.</p>*/}
-          {/*  </div>*/}
-          {/*  <div className="description-second-element align-right ">*/}
-          {/*    <h5 className='contact-sub'>psum dolor sit amet, <em>consectetur adipisicing elit.</em> Aperiam autem nihil, possimus quibusda</h5>*/}
-          {/*  </div>*/}
-          {/*</div>*/}
 
           <div className="page-content-description">
             <div className="description-first-element">
@@ -68,13 +47,6 @@ const kontakt = () => (
                 </svg>
                 Tu mnie znajdziesz: <a href="https://g.page/adwokat-mikulak-gdynia?we"><em>ul. Amona 4, Gdynia</em></a>
               </p>
-
-
-              {/*<ul className="contact-listing">*/}
-              {/*  <li>NIP: 9581712295</li>*/}
-              {/*  <li>ul. Amona 4</li>*/}
-              {/*  <li>81-601 Gdynia</li>*/}
-              {/*</ul>*/}
 
             </div>
             <div className="description-second-element">

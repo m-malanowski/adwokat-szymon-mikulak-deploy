@@ -192,6 +192,13 @@ h1.page-title em, h2.page-title em {
     margin-right: auto;
     margin-left: auto;
   }
+  @include for-phone-only {
+    width: 100% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
   @include for-tablet-portrait-up {
     width: 90%;
     padding-right: 15px;
@@ -288,17 +295,9 @@ Navbar
 }
 
 .nav-center {
-  /*width: 90vw;*/
-  //max-width: 1170px;
   @include   for-tablet-landscape-up {
     margin: 0 auto;
   }
-  @include for-desktop-up {
-    //display: grid;
-    //grid-template-columns: auto 1fr;
-    //align-items: center;
-  }
-
 }
 .nav-header {
   display: flex;
@@ -343,16 +342,9 @@ Navbar
       color: var(--clr-white);
       font-weight: bold;
       letter-spacing: var(--spacing-menu-links);
-      //transition: var(--transition);
-      //padding: 0.5rem 0;
     }
-    &:hover{
-      //color: var(--clr-primary-5);
-      //color:  hsla(0,0%,100%, .6) !important;
-
-
-      //box-shadow: 0px 2px var(--clr-primary-5);
-    }
+    //&:hover{
+    //}
   }
 }
 /*
@@ -422,7 +414,11 @@ footer{
   border-top: 1px solid rgba(0,0,0,.1);
   .credits{
     padding: 1rem 0;
-
+    .footer-links{
+      li:hover{
+        color: var(--clr-grey-1) !important;
+      }
+    }
     ul.social{
       flex-direction: row;
       @include for-tablet-portrait-up {
@@ -572,7 +568,7 @@ Policy About
    //position: relative;
    //display: block;
    //width: 66.666666%;
-   filter: grayscale(100%);
+   filter: grayscale(100%) brightness(120%);
    width: 70%;
    height: 30vw;
    -o-object-position: center;
@@ -1298,7 +1294,6 @@ Page SingleArticle
       margin: 2.5rem 0 0 0;
     }
   }
-
 }
 .article-page{
   h1 + p{
@@ -1387,12 +1382,10 @@ Team Slider Home And Team
   max-height: 100vh;
   h2{
     margin-top: 5rem;
-
   }
   button{
     margin-top: 5rem;
   }
-
 }
 .arrow {
   width: 15px;
@@ -1490,7 +1483,7 @@ Team Slider Home And Team
   display: block;
 }
 .lines li .lines-dash {
-  height: 3px;
+  height: 2px;
   width: 100%;
   position: relative;
   top: 10px;
@@ -1503,7 +1496,7 @@ Team Slider Home And Team
 .lines li.active .lines-dash:before {
   content: '';
   display: block;
-  height: 3px;
+  height: 2px;
   width: 0;
   background: #ffffff;
   -webkit-animation: progressBar 8000ms linear forwards;
