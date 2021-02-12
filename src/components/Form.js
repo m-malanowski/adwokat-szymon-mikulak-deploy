@@ -42,7 +42,7 @@ export default class Form extends React.Component {
 
           <div>
             <input
-              type="text"
+              type="email"
               name="email"
               value={this.state.email}
               onChange={this.handleInputChange}
