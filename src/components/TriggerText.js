@@ -29,7 +29,7 @@ const TriggerText = ({children}) => {
         visible: { opacity: 1, y: 0, clipPath: "polygon(0 0, 100% 0, 100% 100%, 0 100%)",
           transition: { delay: .2, duration: .8}
         },
-        hidden: { opacity: 0, y: -20, clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)" }
+        hidden: { opacity: 0, y: 40, clipPath: "polygon(0 0, 100% 0, 100% 0, 0 0)" }
       }}
       // variants={{
       //   visible: {

@@ -54,15 +54,11 @@ const TeamMember = () => (
           </div>
           <br/>
           <h5 className="mt-5 mb-5">Życiorys</h5>
-          <p className="team-member-bio">Craft beer YOLO umami i food truck. 3 wolf moon listicl food truck. 3 wolf moon listicle church-key enamel pin <br/><br/>  banjo williamsburg 90's sriracha prism pitchfork. Shabby chic before they sold out vexillologist live-edge farm-to-table deep v hexagon. You probably haven't heard of them flannel hoodie hammock.
-          </p>
-          <br/><br/>
-          <h5 className="mt-5 mb-5">Dopisać coś </h5>
-          <p className="team-member-bio">Craft beer YOLO umame church-key enamel pin banjo williamsburg 90's sriracha prism pitchfork. Shabby chic before they sold out vexillologist live-edge farm-to-table deep v hexagon. You probably haven't heard of them flannel hoodie hammock.
-          </p>
-          <br/><br/>
-          <h5 className="mt-5 mb-5">Informacje</h5>
-          <p className="team-member-bio">3 wolf moon listicle church-key enamlliamsburg 90's sriracha prism pitchfork. Shabby chic before they sold out vexillologist live-edge farm-to-table deep v hexagon. You probably haven't heard of them flannel hoodie hammock.
+          <p className="team-member-bio">Jestem wpisany na listę Adwokatów Pomorskiej Izby Adwokackiej w Gdańsku, nr wpisu: GDA/ADW/3522. Studia na kierunku Prawo ukończyłem w 2016 r. na Uniwersytecie Warmińsko-Mazurskim w Olsztynie, broniąc pracę magisterską pt. Przekształcenie spółki cywilnej w spółki prawa handlowego pod kierunkiem dra hab. Adama Bieranowskiego.
+            <br/><br/>
+            Już podczas studiów łączyłem naukę z pracą w renomowanej kancelarii adwokackiej . W 2017 r. rozpocząłem aplikację adwokacką przy Pomorskiej Izbie Adwokackiej w Gdańsku. Zwieńczeniem trzyletniej aplikacji było uzyskanie pozytywnego wyniku z egzaminu adwokackiego. Doświadczenie zdobywałem współpracując z wieloma znakomitymi adwokatami w kancelarii adwokackiej w Gdańsku.
+            <br/><br/>
+            Zdobyte umiejętności i doświadczenie pozwalają mi na niesienie pomocy w różnych dziedzinach prawa. Specjalizuję się jednak w prowadzeniu spraw karnych, cywilnych głównie w zakresie spraw odszkodowawczych, jak również w doradzaniu i reprezentowaniu przedsiębiorców.
           </p>
 
           <div className="team-member-details">

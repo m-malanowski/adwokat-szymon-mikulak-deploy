@@ -31,8 +31,8 @@ return (
                   <h5>Kancelaria Adwokacka <em>Szymon Mikulak</em> - sprawdzony prawnik z Gdyni </h5>
                 </TriggerText>
                 <br/>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, commodi labore nihil odit officiis quas qui vel! Consectetur, doloribus, maiores minus nihil odit pariatur quas qui quidem repellat tempora
-                  vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus earum nesciunt obcaecati provident tempore! Dignissimos eligendi in non obcaecati, similique voluptate voluptatibus! Aliquid esse facere quidem quos reprehenderit, sunt veritatis
+                <p>Kancelaria zapewnia indywidualne podejście do każdego klienta, gdyż każda sprawa jest dla mnie niezwykle ważna. Dzięki pełnemu zaangażowaniu i
+                  wnikliwej analizie jestem w stanie znaleźć najlepsze rozwiązanie problemu. Kancelaria oferuje pomoc prawną przedsiębiorcom, osobom indywidualnym nieprowadzącym działalności gospodarczej, a także podmiotom sektora publicznego.
                 </p>
                 <br/> <br/>
                 <Button url="/szymon-mikulak" buttonDesc="O mnie"/>
@@ -52,11 +52,13 @@ return (
             </div>
             <div className="description-second-element">
               <ul className="service-list ">
-                <li><p><span>01.</span><Link to="/zakres-uslug">Prawo karne</Link></p></li>
-                <li><p><span>02.</span><Link to="/zakres-uslug">Prawo cywilne</Link></p></li>
-                <li><p><span>03.</span><Link to="/zakres-uslug">Prawo gospodarcze</Link></p></li>
-                <li><p><span>04.</span><Link to="/zakres-uslug">Prawo administracyjne</Link></p></li>
-                <li><p><span>05.</span><Link to="/zakres-uslug">RODO i ochrona danych osobowych </Link></p></li>
+                <li><p><span>01.</span><Link to="/zakres-uslug">Sprawy karne</Link></p></li>
+                <li><p><span>02.</span><Link to="/zakres-uslug">Odszkodowania i zadośćuczynienia</Link></p></li>
+                <li><p><span>03.</span><Link to="/zakres-uslug">Upadłość konsumencka</Link></p></li>
+                <li><p><span>04.</span><Link to="/zakres-uslug">Sprawy rodzinne i opiekuńcze</Link></p></li>
+                <li><p><span>05.</span><Link to="/zakres-uslug">Sprawy spadkowe</Link></p></li>
+                <li><p><span>06.</span><Link to="/zakres-uslug">Sprawy gospodarcze</Link></p></li>
+                <li><p><span>07.</span><Link to="/zakres-uslug">Sprawy administracyjne</Link></p></li>
               </ul>
               <div className="quote">
                 <TriggerText>
@@ -64,7 +66,6 @@ return (
                 </TriggerText>
                 <br/>
                 <p>W ramach świadczonych usług Kancelaria Adwokacka Gdynia Szymon Mikulak zajmuje się reprezentacją swoich Klientów przed wszelkimi Sądami, organami administracji, instytucjami, osobami publicznymi oraz prywatnymi. </p>
-
               </div>
             </div>
           </div>
@@ -86,13 +87,15 @@ return (
                   <h5>Skuteczny adwokat potrafi wygrać każdą sprawę.</h5>
                 </TriggerText>
                 <br/>
-                <p>Obszary praktyki są ściśle związane z problemami i zagadnieniami prawnymi w których Kancelaria ma największe doświadczenie. Cray yuccie +1 hella stumptown pork belly pinterest brunch squid hoodie umami sustainable marfa tbh. Gentrify mumblecore locavore iceland keffiyeh. Deep v neutra banh mi gluten-free tumblr humblebrag swag palo santo jean shorts cold-pressed narwhal photo booth ugh.</p>
+                <p>Klientów reprezentuję w postępowaniach przed sądami powszechnymi, Sądem Najwyższym, jak również przed organami administracji publicznej. Kancelaria zajmuje się również udzielaniem porad prawnych oraz sporządzaniem opinii prawnych. Jeżeli istnieje możliwość ugodowego zakończenia sprawy, uczestniczymy w prowadzonych negocjacjach oraz mediacjach. W zakres usług kancelarii wchodzi również windykacja należności od dłużników.</p>
                 <br/>
                 <TriggerText>
                   <h5 className="mt-5">Dlaczego Kancelaria Adwokacka Szymon Mikulak to dobry wybór?</h5>
                 </TriggerText>
                 <br/>
-                <p>Four dollar toast tumeric kombucha celiac, prism street art master cleanse biodiesel YOLO food truck. Cray yuccie +1 hella stumptown pork belly pinterest brunch squid hoodie umami sustainable marfa tbh. Gentrify mumblecore locavore iceland keffiyeh. Deep v neutra banh mi gluten-free tumblr humblebrag swag palo santo jean shorts cold-pressed narwhal photo booth ugh.</p>
+                <p>Pomoc prawna świadczona jest w siedzibie Kancelarii w Gdyni lub innym miejscu ustalonym z klientem. Sprawy prowadzę na terenie całego kraju, głównie jednak na terenie  województwa Pomorskiego.
+                  <br/><br/>
+                  Chętnie angażuję się w działalność pro publico bono udzielając darmowych porad prawnych w zakresie uzyskiwania odszkodowań i zadośćuczynień osobom pokrzywdzonym w zdarzeniach drogowych. </p>
               </div>
             </div>
           </div>
