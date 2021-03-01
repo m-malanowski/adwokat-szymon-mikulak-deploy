@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59d91af2-1f7b-475b-9bfd-a808550b6fc0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/SmoothScroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +76,19 @@
       <workItem from="1612783505909" duration="3065000" />
       <workItem from="1612805671066" duration="419000" />
       <workItem from="1612869986218" duration="4394000" />
-      <workItem from="1613126576510" duration="7489000" />
+      <workItem from="1613126576510" duration="7542000" />
+      <workItem from="1613138017070" duration="628000" />
+      <workItem from="1613232000656" duration="1061000" />
+      <workItem from="1613731009250" duration="701000" />
+      <workItem from="1613834084701" duration="1315000" />
+      <workItem from="1614182749444" duration="505000" />
+      <workItem from="1614183850552" duration="1009000" />
+      <workItem from="1614245032174" duration="5093000" />
+      <workItem from="1614259537259" duration="1332000" />
+      <workItem from="1614333115519" duration="3619000" />
+      <workItem from="1614514143961" duration="599000" />
+      <workItem from="1614517404375" duration="633000" />
+      <workItem from="1614584432726" duration="1355000" />
     </task>
     <servers />
   </component>
