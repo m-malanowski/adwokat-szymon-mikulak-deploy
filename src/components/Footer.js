@@ -14,7 +14,7 @@ const Footer = () => {
           <ul>
             <ul className="footer-links">
               <li className="mr-3"><Link to="/polityka-prywatnosci">Polityka prywatności</Link></li>
-              <li className="mr-3"><a rel="noreferrer noopener" href="https://lumina.studio">By: lumina.studio</a></li>
+              <li className="mr-3">By: <a rel="nofollow noopener" href="https://lumina.studio">lumina.studio</a></li>
             </ul>
             <ul>
               <li className="mr-3"> &copy; {new Date().getFullYear() } Kancelaria Adwokacka Szymon Mikulak</li>

@@ -37,11 +37,12 @@ const NavLink = props => (
       return {
         style: {
           color: isCurrent ?  "#ffffff": "hsla(0,0%,100%, .7)",
+
+
           // color: isCurrent ? "hsla(0,0%,100%, .6)" : "#ffffff",
           // color: (condition) ? (true block) : ((condition2) ? (true block2) : (else block2)),
           // borderBottom: isCurrent ? "1px solid hsla(0,0%,100%, .6)" : "none"
           // transform: isCurrent ? "translateY(-10px)" : ''
-
         }
       };
     }}

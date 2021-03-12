@@ -79,31 +79,18 @@ const MainPageSlider = (props) => {
     initial: 0,
     slideChanged(instance) {
       setCurrentSlide(instance.details().relativeSlide)
-      console.log("slideChanged");
+      controls.start("hidden")
     },
     move(instance) {
       setDetails(instance.details())
-      controls.start("hidden")
-      console.log("move");
+      setPause(true)
     },
-    // beforeChange: (instance) => {
-    //   console.log("beforeChange");
-    //   controls.start("hidden")
-    //   // controls2.start("hidden")
-    //   console.log("dragStart");
-    // },
+
     afterChange: (instance) => {
-      console.log("dragEnd");
-      console.log("afterChange");
       controls.start("visible")
-      // controls2.start("visible")
+      setPause(false)
     },
-    // slideChanged: (instance) =>{
-    //   console.log("slideChanged")
-    //   controls.start("visible")
-    //   controls.start("hidden")
-    //
-    // },
+
 
   })
 
