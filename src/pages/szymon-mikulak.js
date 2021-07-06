@@ -1,5 +1,5 @@
 import React from "react"
-import img1 from "../assets/imgs/portrait/adwokat-gdynia-mikulak.jpg"
+import img1 from "../assets/imgs/portrait/adwokat-gdynia-mikulak2.jpg"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 import { motion } from "framer-motion"
