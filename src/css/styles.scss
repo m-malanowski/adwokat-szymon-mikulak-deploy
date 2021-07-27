@@ -460,11 +460,20 @@ Page Title
   position: relative;
   padding-top: 15rem;
   padding-bottom: 3.5rem;
-  //color: var(--clr-white);
   color: var(--clr-secondary);
   height: 100vh;
+  h1{
+    font-size: calc(35px + (60 - 35) * ((100vw - 320px) / (1900 - 320)));
+    span{
+      line-height: 1;
 
-  //background-image: radial-gradient(#012754,#011f43);
+      span{
+        line-height: .7;
+
+      }
+    }
+  }
+
   .page-title{
     align-self: center;
   }
@@ -481,27 +490,8 @@ Page Title
     object-fit: cover;
     -o-object-position: center top;
     object-position: center top;
-    //-webkit-transform-origin: 50%;
-    //transform-origin: 50%;
   }
-  //h1::before{
-  //  content: "";
-  //  position: absolute;
-  //  left: 0;
-  //  top: -1rem;
-  //  width: 10rem;
-  //  height: 1px;
-  //  background-color: #fff;
-  //}
-  //h1::after{
-  //  content: '21.01.2021';
-  //  position: absolute;
-  //  top: -3rem;
-  //  left: 0;
-  //  font-size: .8rem;
-  //  font-weight: 500;
-  //  line-height: 1em;
-  //}
+
 }
 
 /*
@@ -510,18 +500,10 @@ Page Index
 ===============
 */
 .index-page{
-  //background-image: radial-gradient(#012754,#011f43);
-  //background-image:url("../assets/imgs/abstract/daniel-koponyas-nL1zMSVGFj8-unsplash(1).jpg");
-  //background-image:url("../assets/imgs/method-bg-2.webp");
-
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-
-  //background-repeat:no-repeat;
-  //background-size:contain;
-  //background-position:center;
   min-height: calc(100vh - 5rem - 9rem);
   height: 100vh;
 }
@@ -595,6 +577,14 @@ Policy About
     border-right: 1px solid rgba(0,0,0,.1);
     @include for-tablet-landscape-up {
       border-right: none;
+    }
+  }
+  .subheader{
+    h1{
+      max-width: 50%;
+      @include for-tablet-landscape-up {
+        max-width: 100%;
+      }
     }
   }
 }

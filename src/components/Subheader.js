@@ -37,7 +37,7 @@ const Subheader = ({pageTitle, pagePreTitle, subImg, alt}) => {
       </div>
 
       <div className="page-title container-fluid">
-        <div className="col-md-8 col-12">
+        <div className="col-md-10 col-12">
           <motion.p
             className="beforeH1"
             initial={{opacity: 0, y: 12}}
